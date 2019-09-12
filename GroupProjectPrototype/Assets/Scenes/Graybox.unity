@@ -796,6 +796,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3922888044933201481, guid: 66bc884460a292545b124b052ef9b6d9,
+        type: 3}
+      propertyPath: m_AngularSpeed
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 3922888044933201481, guid: 66bc884460a292545b124b052ef9b6d9,
+        type: 3}
+      propertyPath: m_Speed
+      value: 3.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 66bc884460a292545b124b052ef9b6d9, type: 3}
 --- !u!1 &698121797
@@ -2444,21 +2454,6 @@ PrefabInstance:
     - target: {fileID: 4010126182098336, guid: 694713a700b25dd489e2b9e0bbf18708, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4318729441362406339, guid: 694713a700b25dd489e2b9e0bbf18708,
-        type: 3}
-      propertyPath: _health
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 4318729441362406339, guid: 694713a700b25dd489e2b9e0bbf18708,
-        type: 3}
-      propertyPath: _attackDamage
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 4318729441362406339, guid: 694713a700b25dd489e2b9e0bbf18708,
-        type: 3}
-      propertyPath: _attackRange
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 694713a700b25dd489e2b9e0bbf18708, type: 3}

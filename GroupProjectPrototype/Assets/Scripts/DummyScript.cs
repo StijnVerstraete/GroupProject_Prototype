@@ -13,6 +13,11 @@ public class DummyScript : MonoBehaviour, IDamageable
             Die();
     }
 
+    public void TakeDamage(int damage, float stunTime)
+    {
+        TakeDamage(damage);
+    }
+
     private void Die()
     {
         GameObject.Destroy(gameObject);

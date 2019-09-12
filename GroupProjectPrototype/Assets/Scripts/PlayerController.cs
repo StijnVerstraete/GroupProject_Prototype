@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private int _attackDamage;
     [SerializeField] private float _attackRange;
     [SerializeField] private float _attackCooldown;
+    [SerializeField] private float _attackStunTime=1;
     private float _attackCooldownTimer;
     private PillowScript _leftPillow;
     private PillowScript _rightPillow;
@@ -97,7 +98,8 @@ public class PlayerController : MonoBehaviour
             {
                 if ((enemy.transform.position - transform.position).sqrMagnitude <= _attackRange * _attackRange)
                 {
-                    enemy.TakeDamage(_attackDamage);
+                    enemy.TakeDamage(_attackDamage, _attackStunTime);
+                    break;
                 }
             }
             _attackCooldownTimer = 0;
@@ -118,12 +120,14 @@ public class PlayerController : MonoBehaviour
         if (other.CompareTag(_leftPillowTag))
         {
             other.GetComponent<PillowScript>().Pickup(_leftPillowSlot);
+            if(_leftPillowSlot.childCount>0)
             _leftPillow = other.GetComponent<PillowScript>();
         }
         if (other.CompareTag(_rightPillowTag))
         {
             other.GetComponent<PillowScript>().Pickup(_rightPillowSlot);
-            _rightPillow = other.GetComponent<PillowScript>();
+            if (_rightPillowSlot.childCount > 0)
+                _rightPillow = other.GetComponent<PillowScript>();
         }
     }
 

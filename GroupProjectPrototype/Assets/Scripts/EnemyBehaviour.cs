@@ -27,6 +27,9 @@ public class EnemyBehaviour : MonoBehaviour, IDamageable
     private float _roamingTime=0;
     private float _roamingTimer = 0;
 
+    private float _stunTime = 0;
+    private float _stunTimer=0;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -43,6 +46,9 @@ public class EnemyBehaviour : MonoBehaviour, IDamageable
     // Update is called once per frame
     void Update()
     {
+        _stunTimer += Time.deltaTime;
+        if (_stunTimer < _stunTime) return;
+
         if (CanSeePlayer())
         {
             _navMeshAgent.SetDestination(_playerTransform.position);
@@ -69,6 +75,9 @@ public class EnemyBehaviour : MonoBehaviour, IDamageable
             Vector3 relativeDestination = transform.InverseTransformPoint(_navMeshAgent.destination);
             _playerMotor.HorizontalAim = relativeDestination.x / Mathf.Abs(relativeDestination.x);
         }
+
+        //_navMeshAgent.Warp(transform.position);
+        //_navMeshAgent.velocity = _playerMotor.Velocity;
 
         _roamingTimer += Time.deltaTime;
         _attackCooldownTimer += Time.deltaTime;
@@ -117,6 +126,15 @@ public class EnemyBehaviour : MonoBehaviour, IDamageable
             _enemies.Remove(this);
             GameObject.Destroy(gameObject);
         }
+    }
+
+    public void TakeDamage(int damage, float stunTime)
+    {
+        TakeDamage(damage);
+        _playerMotor.StopMoving();
+
+        _stunTime = stunTime;
+        _stunTimer = 0;
     }
 
     private void TryAttack()

@@ -10,16 +10,24 @@ public class PillowScript : MonoBehaviour
     private Rigidbody _rigidbody;
     private bool _isThrown;
 
+    private float _pickupCooldown=1;
+    private float _pickupTimer=0;
+
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
+        _pickupTimer = _pickupCooldown;
         _rigidbody = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (_pickupTimer > _pickupCooldown && transform.parent==null)
+        {
+            gameObject.layer = 0;
+        }
+        _pickupTimer += Time.deltaTime;
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -31,7 +39,6 @@ public class PillowScript : MonoBehaviour
             {
                 damagable.TakeDamage(_damage);
             }
-            gameObject.layer = 0;
             _isThrown = false;
         }
     }
@@ -42,13 +49,18 @@ public class PillowScript : MonoBehaviour
         transform.parent = null;
         _isThrown = true;
         _rigidbody.AddForce(force, ForceMode.Impulse);
+        _pickupTimer = 0;
     }
 
     public void Pickup(Transform parent)
     {
-        transform.parent = parent;
-        gameObject.layer = parent.gameObject.layer;
-        transform.localPosition = Vector3.zero;
-        _rigidbody.isKinematic = true;
+        if (_pickupTimer >= _pickupCooldown)
+        {
+            transform.parent = parent;
+            gameObject.layer = parent.gameObject.layer;
+            transform.localPosition = Vector3.zero;
+            _rigidbody.isKinematic = true;
+        }
+        
     }
 }
