@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Tib_UnlitBase 2
+  m_Shader: {fileID: 4800000, guid: 4ec4cae5b65342b4eb19487fa59cca61, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _OutlineNoise:
+        m_Texture: {fileID: 2800000, guid: d117d873cc2768f40b27c97eda56e794, type: 3}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 8eca5dc805d5bb94c976ade5536b9f6e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VectorMap:
+        m_Texture: {fileID: 2800000, guid: 3909c00f462edea41a09c1215987404b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ASEOutlineWidth: 0.005
+    - _Cutoff: 0.5
+    - _Falloff: 17.08
+    - _FresnelBias: 0
+    - _FresnelPower: 4.63
+    - _FresnelScale: 0.15
+    - _NoiseMapOpacity: 0
+    - _OutlineWidth: 0.01
+    - _RimOffset: 0
+    - _RimPower: 9.63
+    - __dirty: 0
+    m_Colors:
+    - _ASEOutlineColor: {r: 0.33962262, g: 0.008009966, b: 0.047186915, a: 0}
+    - _Addedcolor: {r: 0.253649, g: 0.5986654, b: 0.7169812, a: 0}
+    - _FresnelColor: {r: 0.03524386, g: 0.6792453, b: 0.5198271, a: 0}
+    - _NoiseColor: {r: 0.21462208, g: 0.8584906, b: 0.2524967, a: 0}
+    - _OutLineColor: {r: 0.3207547, g: 0.034798868, b: 0.050565522, a: 0}
+    - _RimColor: {r: 0, g: 1, b: 0.8758622, a: 0}
+    - _TilingVector: {r: 1, g: 1, b: 0, a: 0}

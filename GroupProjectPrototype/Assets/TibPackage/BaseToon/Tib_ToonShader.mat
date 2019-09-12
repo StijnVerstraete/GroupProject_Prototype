@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Tib_ToonShader
+  m_Shader: {fileID: 4800000, guid: 09d1be47c1c934c45826b5f086c55485, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 1c18271c5bb7cee4493bc2f19215050f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ToonRamp:
+        m_Texture: {fileID: 2800000, guid: 52e66a9243cdfed44b5e906f5910d35b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VectorMap:
+        m_Texture: {fileID: 2800000, guid: 2741be98b31d56c43ad9cfbcaf99a799, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Falloff: 17.08
+    - _FresnelBias: 0.1
+    - _FresnelPower: 4
+    - _FresnelScale: 1
+    - _NoiseMapOpacity: 0.7
+    - _RimOffset: 0.24
+    - _RimPower: 0.5
+    - __dirty: 0
+    m_Colors:
+    - _FresnelColor: {r: 0.5580835, g: 0.8113207, b: 0.21048418, a: 0}
+    - _NoiseColor: {r: 0.9339623, g: 0.9154974, b: 0.42733178, a: 0}
+    - _RimColor: {r: 0, g: 1, b: 0.8758622, a: 0}
+    - _TilingVector: {r: 1, g: 1, b: 0, a: 0}
