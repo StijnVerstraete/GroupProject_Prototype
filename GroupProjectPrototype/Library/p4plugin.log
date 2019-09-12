@@ -3,3 +3,8 @@ Path 'E:/IGP/Semester 5/Group Project/GroupProject_Prototype/GroupProjectPrototy
 Error: Path 'E:/IGP/Semester 5/Group Project/GroupProject_Prototype/GroupProjectPrototype\testForProjectRootMapping' is not under client's root 'C:\Users\Stijn Verstraete\Perforce\sverstraete_LAPTOP-UBCVOT94_2447'.
 
 e32:Path 'E:/IGP/Semester 5/Group Project/GroupProject_Prototype/GroupProjectPrototype\\testForProjectRootMapping' is not under client's root 'C:\\Users\\Stijn Verstraete\\Perforce\\sverstraete_LAPTOP-UBCVOT94_2447'.\n
+Client 'sverstraete_LAPTOP-UBCVOT94_2447' can only be used from host 'LAPTOP-UBCVOT94'.
+
+Error: Client 'sverstraete_LAPTOP-UBCVOT94_2447' can only be used from host 'LAPTOP-UBCVOT94'.
+
+e32:Client 'sverstraete_LAPTOP-UBCVOT94_2447' can only be used from host 'LAPTOP-UBCVOT94'.\n
