@@ -6,7 +6,72 @@ ModelImporter:
   - first:
       74: 1827226128182048838
     second: Take 001
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arms_LP
+    second: {fileID: 2100000, guid: ac4fc07cd8fbfec4fb42bdeb493f428e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body_LP
+    second: {fileID: 2100000, guid: ac4fc07cd8fbfec4fb42bdeb493f428e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ears_LP
+    second: {fileID: 2100000, guid: ac4fc07cd8fbfec4fb42bdeb493f428e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eyes_LP
+    second: {fileID: 2100000, guid: ac4fc07cd8fbfec4fb42bdeb493f428e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Feet_LP
+    second: {fileID: 2100000, guid: ac4fc07cd8fbfec4fb42bdeb493f428e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HatBall_LP
+    second: {fileID: 2100000, guid: ac4fc07cd8fbfec4fb42bdeb493f428e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hat_LP
+    second: {fileID: 2100000, guid: ac4fc07cd8fbfec4fb42bdeb493f428e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Head_LP
+    second: {fileID: 2100000, guid: ac4fc07cd8fbfec4fb42bdeb493f428e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: ac4fc07cd8fbfec4fb42bdeb493f428e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PM3D_Cylinder3D1_1
+    second: {fileID: 2100000, guid: ac4fc07cd8fbfec4fb42bdeb493f428e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pants_LP
+    second: {fileID: 2100000, guid: ac4fc07cd8fbfec4fb42bdeb493f428e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Slippers_LP
+    second: {fileID: 2100000, guid: ac4fc07cd8fbfec4fb42bdeb493f428e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tail_LP
+    second: {fileID: 2100000, guid: ac4fc07cd8fbfec4fb42bdeb493f428e, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

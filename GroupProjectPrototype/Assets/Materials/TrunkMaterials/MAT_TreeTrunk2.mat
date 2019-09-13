@@ -86,9 +86,9 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _Falloff: 0
-    - _FresnelBias: 0.011
+    - _FresnelBias: 0
     - _FresnelPower: 4.26
-    - _FresnelScale: 0.16
+    - _FresnelScale: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -115,4 +115,4 @@ Material:
     - _OutLineColor: {r: 0.25073949, g: 0.16905482, b: 0.2735849, a: 0}
     - _RimColor: {r: 0, g: 0, b: 0, a: 0}
     - _TilingNoise: {r: 1, g: 1, b: 1, a: 1}
-    - _TilingVector: {r: 0.05, g: 0.05, b: 0.02, a: 0}
+    - _TilingVector: {r: 0.05, g: 0.05, b: 0, a: 0}
