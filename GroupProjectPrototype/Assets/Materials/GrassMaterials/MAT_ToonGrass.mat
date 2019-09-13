@@ -60,7 +60,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ToonRamp:
-        m_Texture: {fileID: 2800000, guid: e79d5ba0d129107449a9c3eb631b4e32, type: 3}
+        m_Texture: {fileID: 2800000, guid: 42d9b96352f1425419ae6883375d15da, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _VectorMap:
@@ -108,5 +108,5 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FresnelColor: {r: 0.5580835, g: 0.8113208, b: 0.2104842, a: 0}
     - _NoiseColor: {r: 0.9339623, g: 0.9154974, b: 0.4273318, a: 0}
-    - _RimColor: {r: 0.7169812, g: 0.050729793, b: 0.050729793, a: 0}
+    - _RimColor: {r: 0, g: 0, b: 0, a: 0}
     - _TilingVector: {r: 1, g: 1, b: 0, a: 0}
