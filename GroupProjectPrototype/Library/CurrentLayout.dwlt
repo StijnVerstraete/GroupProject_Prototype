@@ -113,7 +113,7 @@ MonoBehaviour:
   m_MinSize: {x: 583, y: 494}
   m_MaxSize: {x: 12008, y: 14044}
   vertical: 0
-  controlID: 11195
+  controlID: 298
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -138,7 +138,7 @@ MonoBehaviour:
   m_MinSize: {x: 583, y: 494}
   m_MaxSize: {x: 12008, y: 14044}
   vertical: 1
-  controlID: 11196
+  controlID: 299
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_MinSize: {x: 583, y: 222}
   m_MaxSize: {x: 12008, y: 4022}
   vertical: 0
-  controlID: 11197
+  controlID: 300
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -305,7 +305,7 @@ MonoBehaviour:
   m_VSyncEnabled: 0
   m_MaximizeOnPlay: 1
   m_Gizmos: 0
-  m_Stats: 1
+  m_Stats: 0
   m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_TargetDisplay: 0
   m_ZoomArea:
@@ -386,9 +386,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 60370000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: ec50fdff7000feff7a00feff1808fefff81afeff9ad9ffffa8d9ffff26f4ffff78970100beaa0100
+      m_ExpandedIDs: 36faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -803,9 +803,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 83}
-    m_SelectedIDs: 82380000
-    m_LastClickedID: 14466
-    m_ExpandedIDs: 00000000dc3000007e36000080380000823800001839000000ca9a3b
+    m_SelectedIDs: 68380000
+    m_LastClickedID: 14440
+    m_ExpandedIDs: 000000006a300000103600006638000068380000fe38000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -833,7 +833,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000dc3000007e36000080380000823800001839000000ca9a3b
+    m_ExpandedIDs: 000000006a300000103600006638000068380000fe38000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
