@@ -32,6 +32,7 @@ public class PlayerController : MonoBehaviour
     }
     void Start()
     {
+        Cursor.lockState = CursorLockMode.Locked;
         _playerMotor = GetComponent<PlayerMotor>();
         _cameraController = GetComponent<CameraController>();
         SetPillows();

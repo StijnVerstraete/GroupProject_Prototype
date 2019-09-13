@@ -11,7 +11,7 @@ Material:
   m_Shader: {fileID: 4800000, guid: b945086efb170384fa7109cf7492c045, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 0
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -81,26 +81,26 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _Falloff: 1
-    - _FresnelBias: 0
+    - _FresnelBias: 0.089
     - _FresnelPower: 0
     - _FresnelScale: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _GrassWaveSpeed: 0.06
+    - _GrassWaveSpeed: 0.15
     - _Metallic: 0
     - _Mode: 0
     - _NoiseMapOpacity: 0.37
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _RimOffset: 0
-    - _RimPower: 0
+    - _RimPower: 1.15
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _ToonStrength: 1
     - _UVSec: 0
-    - _WindStrength: 0.02
+    - _WindStrength: 0.04
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
@@ -108,5 +108,5 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FresnelColor: {r: 0.5580835, g: 0.8113208, b: 0.2104842, a: 0}
     - _NoiseColor: {r: 0.9339623, g: 0.9154974, b: 0.4273318, a: 0}
-    - _RimColor: {r: 0, g: 0, b: 0, a: 0}
+    - _RimColor: {r: 0.7169812, g: 0.050729793, b: 0.050729793, a: 0}
     - _TilingVector: {r: 1, g: 1, b: 0, a: 0}
